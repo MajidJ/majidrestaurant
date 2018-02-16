@@ -1,0 +1,172 @@
+// variables
+@primary: #ff4081;
+@p-light: #ff79b0;
+@p-dark: #c60055;
+@secondary: #b87676;
+@s-light: #66f0a8;
+@s-dark: #00b248;
+@white-base: #ffffff;
+@text-color: #010101;
+@primary-font: 'Rammetto One', cursive;
+@secondary-font: 'Roboto', sans-serif;
+
+
+/* global styles */
+html {
+    font-size: 1em;
+
+}
+
+
+body {
+    background-color: @white-base;
+    font-family: @secondary-font;
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-family: @primary-font;
+}
+
+h1 {
+    font-size: 72px;
+    color: @primary;
+}
+
+
+a {
+    font-size: 36px;
+    color: @s-dark;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+li {
+    display: inline-block;
+    margin: auto;
+}
+
+label {
+    color: @secondary;
+}
+
+img {
+    margin-left: 1.5%;
+}
+
+/* header styles */
+
+.header-stuff {
+    position: relative;
+    margin-top: -240px;
+
+}
+
+header {
+    background-image: url('../images/header-photo.jpeg');
+    height: 300px;
+    background-size: cover;
+}
+
+header li {
+    margin: 0 5px;
+    font-size: 1em;
+}
+
+header li:first-of-type {
+    margin-left: 0;
+}
+
+.transparency {
+    position: relative;
+    background-color: #000000;
+    width: 90%;
+    height: 200px;
+    margin: 0 auto 50px auto;
+    opacity: .6;
+    border-radius: 0 0 10px 10px;
+}
+
+// main
+
+figure {
+    margin: 30px auto;
+}
+
+figcaption {
+    position: relative;
+    margin: -70px 0 0 30px;
+    padding: 5px 10px;
+    background-color: @s-dark;
+    color: @white-base;
+    width: 150px;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+p {
+    font-size: 1em;
+    padding: 1em;
+    line-height: 1.5;
+    color: @text-color;
+}
+
+p:first-of-type {
+    color: tomato;
+}
+
+
+/* footer styles */
+footer {
+    background: @text-color;
+}
+
+footer a {
+    font-size: 64px;
+}
+
+footer li {
+    display:inline-block;
+    margin: 0 1.5em;
+}
+
+iframe {
+    width: 90%;
+    margin: 10px 5%;
+    height: 300px;
+}
+
+// tablet styles
+@media screen and (min-width:400px) {
+    nav ul {
+        margin-left: 22.5%;
+    }
+    
+    .halfer {
+        float: left;
+        width: 50%;
+    }
+
+    figure img {
+        padding: 5px;
+    }
+
+    p:first-of-type {
+        display: block;
+    }
+    h2 {
+        padding-top: 20px;
+    }
+
+    .clearfix {
+        overflow: auto;
+        content: "";
+        clear: both;
+        display: table;
+    }
+}

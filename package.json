@@ -1,0 +1,30 @@
+{
+  "name": "majidrestaurant",
+  "version": "1.0.0",
+  "description": "A fun website for people who like tacos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Taxlife/majidrestaurant.git"
+  },
+  "keywords": [
+    "tacos",
+    "gulp"
+  ],
+  "author": "Majid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Taxlife/majidrestaurant/issues"
+  },
+  "homepage": "https://github.com/Taxlife/majidrestaurant#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-html-beautify": "^1.0.1",
+    "gulp-less": "^3.5.0"
+  }
+}

@@ -11,36 +11,53 @@
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
             <link rel="stylesheet" href="./css/style.css">
             <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         </head>
         <body>
             <header>
-                <h1>Majid's Restaurant</h1>
-                <nav>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="menu.html">Menu</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </nav>
+                <div class="transparency"></div>
+                <div class="header-stuff">   
+                    <h1>Majid's Restaurant</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="menu.html">Menu</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </header>
             <main>
                 <section aria-labelledby="pictures of food">
-                    <h2 id="pictures"></h2>
-                    <div><img src="http://www.placepuppy.net/400/250" alt="Tacos"></div>
-                    <div><img src="http://www.placepuppy.net/400/250" alt="Burritos"></div>
-                    <div><img src="http://www.placepuppy.net/400/250" alt="Quesadilla"></div>
-                    <div><img src="http://www.placepuppy.net/400/250" alt="Nachos"></div>
+                    <h2 id="pictures">Our Food</h2>
+                    <figure class="halfer">
+                        <img src="http://www.placepuppy.net/400/250" alt="Tacos">
+                        <figcaption>Tacos</figcaption>
+                    </figure>
+                    <figure class="halfer">
+                        <img src="http://www.placepuppy.net/400/250" alt="Burritos">
+                        <figcaption>Burritos</figcaption>
+                    </figure>
+                    <figure class="halfer">
+                        <img src="http://www.placepuppy.net/400/250" alt="Quesadilla">
+                        <figcaption>Quesadilla</figcaption>
+                    </figure>
+                    <figure class="halfer">
+                        <img src="http://www.placepuppy.net/400/250" alt="Nachos">
+                        <figcaption>Nachos</figcaption>
+                    </figure>
                 </section>
                 <section aria-labelledby="about us">
-                    <h2 id="about us"></h2>
+                    <h2 id="about us">About Us</h2>
                     <p>Proident incididunt irure qui ex exercitation ad qui cupidatat tempor nisi reprehenderit sint commodo. Est excepteur sunt ex sint nisi aliqua eiusmod aliquip ad enim non anim proident. Sit magna id aliqua aliquip magna sunt aliquip. Nulla commodo excepteur commodo aute mollit veniam veniam velit cupidatat nostrud deserunt.</p>
                     <p>Aliquip laborum veniam ut ullamco. Quis adipisicing Lorem eiusmod ea. Ea amet non ex irure voluptate. Laboris Lorem esse mollit Lorem dolore Lorem excepteur voluptate consectetur mollit esse sint. Quis tempor reprehenderit veniam pariatur voluptate voluptate anim. Magna tempor qui ut veniam pariatur veniam enim velit in id tempor qui id.</p>
                 </section>
             </main>
             <footer>
-                <div class="halfer"></div>
-                <div class="halfer"></div>
-                <div>
+                <div class="halfer">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2822.0305914534183!2d-93.18261798430211!3d44.98368967339738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b32c84be5000bd%3A0x6f84c8dbfb9ba8b8!2s1890+Buford+Ave%2C+St+Paul%2C+MN+55108!5e0!3m2!1sen!2sus!4v1518750023417"allowfullscreen></iframe>
+                </div>
+                <div class="halfer">
                     <ul>
                         <li><a href="#"><i class="fab fa-google-plus-square"></i></a></li>
                         <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
@@ -48,5 +65,8 @@
                     </ul>
                 </div>
             </footer>
+            <div class="copy clearfix">
+                &copy; Majid Restaurant 2018
+            </div>
         </body>
     </html>
